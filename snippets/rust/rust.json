@@ -69,6 +69,11 @@
         "body": ["concat_idents!(${1})"],
         "description": "concat_idents!(…)"
     },
+    "debug": {
+        "prefix": "debug",
+        "body": ["#[derive(Debug)]"],
+        "description": "debug"
+    },
     "debug_assert": {
         "prefix": "debug_assert",
         "body": ["debug_assert!(${1});"],
